@@ -7,7 +7,12 @@ COPY repos ../apps
 
 USER root
 
-RUN install-app castlecraft && \
-    install-app microsoft_integration
+RUN install-app hrms && \
+    install-app posawesome && \
+    install-app chat && \
+    install-app erpnext_telegram_integration && \
+    install-app wiki && \
+    install-app pdf_on_submit && \
+    install-app frappedesk
 
 USER frappe

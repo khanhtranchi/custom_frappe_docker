@@ -18,5 +18,12 @@
 
 # Following are public repositories.
 
-git clone --depth 1 --branch main https://github.com/castlecraft/cfe repos/castlecraft
-git clone --depth 1 --branch main https://github.com/castlecraft/microsoft_integration repos/microsoft_integration
+# git clone --depth 1 --branch main https://github.com/castlecraft/cfe repos/castlecraft
+# git clone --depth 1 --branch main https://github.com/castlecraft/microsoft_integration repos/microsoft_integration
+git clone --depth 1 --branch develop https://github.com/frappe/hrms.git repos/hrms
+git clone --depth 1 --branch develop https://github.com/yrestom/POS-Awesome.git repos/posawesome
+git clone --depth 1 --branch main https://github.com/frappe/chat.git repos/chat
+git clone --depth 1 --branch master https://github.com/yrestom/erpnext_telegram.git repos/erpnext_telegram_integration
+git clone --depth 1 --branch master https://github.com/frappe/wiki repos/wiki
+git clone --depth 1 --branch develop https://github.com/alyf-de/erpnext_pdf-on-submit.git repos/erpnext_pdf-on-submit
+git clone --depth 1 --branch main https://github.com/frappe/desk.git repos/frappedesk
